@@ -1,0 +1,141 @@
+/* ==============================
+ GLOBAL SETTINGS 
+=============================== */
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.6;
+  font-weight: 900;
+  letter-spacing: .0301em;
+  color: #333;
+  font-size: 1.5em;
+
+}
+
+/* Fonts */
+h1,h2,h3,h4,h5,h6 {
+  margin:0;
+  color: #2e353b;
+
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+p {
+  font-size: 1.125em;
+}
+
+/* Links */
+
+a {
+  color:#42B4D3;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.clear{
+  clear:both;
+}
+.clearR{
+  clear:right;
+}
+.unstyle{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+::-moz-selection { /* Code for Firefox */
+   background: #ffc679;
+}
+
+::selection {
+   background: #ffc679;
+}
+
+/* ==============================
+FOOTER
+=============================== */
+footer{
+  background: #3a3a3a;
+  color:#777777;
+  margin-top:70px;
+  padding:50px 0 15px 0;
+  font-size: 13.5px;
+  line-height: 1.8em;
+}
+footer h3{
+ color: #FFF;
+ margin-bottom:8px;
+}
+.footer-nav{
+ padding-left:10%;
+ color: #e0960f;
+}
+
+.copyright-footer{
+ margin-top:1px;
+}
+.bottom-footer{
+ margin-top:20px;
+ padding-top: 9px;
+ border-top: 2px solid #4b4747;
+}
+footer .social-icons{
+ font-size: 55px;
+ margin:15px 0;
+ display: inline-block;
+}
+#footer-sub{
+  padding:10px 0;
+}
+
+.top-footer{
+  color: #6e6e6e;
+}
+#subscribe-footer{
+  width: 75%;
+  height: 45px;
+}
+#subscribe-button-footer{
+  width: 24%;
+  height: 45px;
+  background: #bb7900;
+  color: white;
+
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+#subscribe-button-footer:hover{
+  background: #d78c03;
+}
+.developer,
+.brand-color{
+  color:#d78c03;
+}
+
+
+
+
+
+
+
+
+
+
