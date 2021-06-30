@@ -45,18 +45,28 @@
   display: flex;
   flex-direction: column;
   background: url("../images/2.jpg") no-repeat center center/cover;
-  background-color: rgba(0,0,0,0.5);
+  background-color: black;
   justify-content: center;
   align-items: center;
   color: white;
   top: 0;
   right: 0;
   
-  height: 600px;
+  height: 900px;
   width:100%;
   z-index: -1;
   
 }
+.logo{
+  width: 70px;
+      }
+  
+  .logo img{
+  float: left;
+  margin: 0px 0px 0px -350px;
+  width: 70px;
+  height: 70px;
+  }
 #home::before{
   content: "";
   position: absolute;
@@ -66,7 +76,7 @@
   height: 900px;
   width:100%;
   z-index: -1;
-  opacity: -8;
+  opacity: ;
 }
 .main{
   display: flex;
