@@ -1,0 +1,693 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Cookie', cursive;
+font-family: 'Vollkorn', serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  margin: 0;
+  padding: 0 20px;
+}
+
+body {
+  background-color: #282828;
+  margin: 0;
+}
+
+.internal {
+  margin: auto;
+  max-width: 940px;
+  font-size: 0;
+  vertical-align: top;
+}
+
+h1 {
+  margin-top: 15px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: Montserrat, Sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: white;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 110px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: Montserrat, Sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -0.045em;
+  color: #222222;
+}
+
+h2 ~p {
+  margin: 0 0 70px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Vollkorn, serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  color: #777777;
+}
+
+h4, time {
+  margin: 25px 0 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Montserrat, Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #222222;
+  letter-spacing: -0.025em;
+}
+
+h5 {
+  margin-bottom: 0;
+  margin-top: 25px;
+  font-family: Montserrat, Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #222222;
+  letter-spacing: -0.05em;
+}
+
+h5 ~p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #777777;
+}
+
+p {
+  margin: 0;
+  font-family: Montserrat, Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #777777;
+}
+
+header {
+/*   height: 700px; */
+  width: 100%;
+  padding: 0 20px;
+  background: url("http://freepo.ru/netology/images/diplom/back/head.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+nav {
+  position: relative;
+  margin: 0 auto 200px;
+  padding-top: 45px;
+  max-width: 940px;
+}
+
+nav .logo {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  padding: 0 0 0 5px;
+  font-family: Cookie, cursive;
+  font-weight: 400;
+  font-size: 36px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  color: #fed136;
+}
+
+nav ul {
+  margin: 0 0 0 100px;
+  padding: 0;
+  text-align: right;
+}
+
+nav li {
+  margin: 0 0 0 37px;
+  display: inline-block;
+}
+
+nav li a {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  line-height: 14px;
+  vertical-align: bottom;
+}
+
+nav li a:hover {
+  color: #fed136;
+}
+
+header p {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Vollkorn', serif;;
+  font-weight: 400;
+  font-size: 45px;
+  text-align: center;
+  font-style: italic;
+  text-transform: capitalize;
+  letter-spacing: 0.01em;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  width: 240px;
+  height: 65px;
+  line-height: 65px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #fed136;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+header .btn {
+  margin-bottom: 160px;  
+}
+
+.services {
+/*   height: 570px; */
+  background-color: white;
+}
+
+.single-service {
+  display: inline-block;
+  width: calc(100% / 3);
+  vertical-align: top;
+  padding: 0 19px;
+  margin-bottom: 122px;
+}
+
+.single-service:first-child {
+  padding: 0 38px 0 0;
+}
+
+.single-service:last-child {
+  padding: 0 0 0 38px;
+}
+
+.single-service p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  color: #777777;
+}
+
+.services .icon {
+  width: 72px;
+  height: 72px;
+  margin: auto;
+  padding: 0;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #fed136;
+  border-radius: 50%;
+/*  background: url("serviceicon.png");*/
+  background-image: url("http://freepo.ru/netology/images/diplom/icon/serviceicon.png");
+  background-repeat: no-repeat;
+}
+
+.services .icon-web {
+  background-position: -66px 0;
+}
+
+.services .icon-security {
+  background-position: -132px 0;
+}
+
+.portfolio {
+/*   height: 1218px; */
+  padding-bottom: 70px;
+  background-color: #f7f7f7;
+}
+
+.single-portfolio {
+  display: inline-block;
+  width: calc(100% / 3);
+  vertical-align: top;
+  margin-bottom: 47px;
+  text-align: center;
+}
+
+.single-portfolio:nth-child(3n + 1) {
+  text-align: left;
+}
+
+.single-portfolio:nth-child(3n + 3) {
+  text-align: right;
+}
+
+.single-portfolio > div {
+  display: inline-block;
+  max-width: 291px;
+  background-color: white;  
+}
+
+.single-portfolio img {
+  width: 100%;
+}
+
+.single-portfolio p {
+  margin: -10px 0 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Vollkorn', serif;;
+  font-weight: 400;
+  font-size: 17px;
+  font-style: italic;
+  text-transform: capitalize;
+/*   letter-spacing: 0.01em; */
+  color: #737373;
+}
+
+.about {
+/*  height: 1665px;*/
+  padding-bottom: 120px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: white;
+}
+
+.about time {
+  margin: 0;
+  display: block;
+  padding: 5px 0 0 0;
+  text-transform: uppercase;
+  letter-spacing: -0.035em;
+}
+
+.about h4 {
+  margin-top: 0;
+  padding: 5px 0 0 0;
+  letter-spacing: -0.06em;
+}
+
+.preview {
+  position: relative;
+  width: calc(50% + 1.5px);
+  padding: 0 0 95px 0;
+/*   border: 1px solid red; */
+}
+
+.preview.lpr {
+  margin-right: calc(50% - 1.5px);
+  border-right: 3px solid #f1f1f1;
+}
+
+.preview.rpr {
+  margin-left: calc(50% - 1.5px);
+  border-left: 3px solid #f1f1f1;
+}
+
+.preview:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.about .picture{
+  position: relative;
+  width: 182px;
+  height: 182px;
+  margin: 0;
+  padding: 0;
+  border: 7px solid #f1f1f1;
+  border-radius: 50%;
+}
+
+.lpic {
+  right: -91px;
+  float: right;
+}
+
+.rpic {
+  left: -91px;
+  float: left;
+}
+
+.preview:last-child {
+  position: relative;
+  width: 182px;
+  height: 182px;
+  margin: auto;
+  padding: 0;
+  border: 7px solid #f1f1f1;
+  border-radius: 50%;
+}
+
+.preview > p {
+  padding-top: 30px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  color: white;
+}
+
+.about .preview:last-child {
+  vertical-align: middle;
+  background-color: #fed136;
+}
+
+.about img {
+  width: 168px;
+  height: 168px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.left-descr {
+  position: relative;
+  right: -91px;
+  max-width: 530px;
+  margin-left: -64px;
+  padding-right: 225px;
+}
+
+.right-descr {
+  position: relative;
+  left: -91px;
+  max-width: 530px;
+  margin-right: -64px;
+  padding-left: 225px;
+}
+
+.left-descr p, .right-descr p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: #777777;
+  letter-spacing: -0.025em;
+}
+
+
+.left-descr p, .left-descr h4 , .left-descr time{
+  text-align: right;  
+}
+
+
+.right-descr p, .right-descr h4, .right-descr time {
+  text-align: left;  
+}
+
+.team {
+/*   height: 816px; */
+  background-color: #f9f9f9;
+}
+
+.team h2 {
+  padding-bottom: 5px;
+}
+
+.team h2 ~p{
+  margin-bottom: 80px;
+}
+
+.person {
+  display: inline-block;
+  width: calc(100% / 3);
+  padding-left: 33px;
+  padding-right: 33px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.person:first-child {
+  padding-left: 66px;
+  padding-right: 0;
+}
+
+.person:last-child {
+  padding-left: 0;
+  padding-right: 66px;
+}
+
+.foto:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.foto {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 220px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #111111;
+}
+
+.iconset {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  border-radius: 50%;
+  border: 3px solid #222222; 
+  background-image: url("http://freepo.ru/netology/images/diplom/icon/social-icon.png");
+  background-repeat: no-repeat;
+}
+
+.social-icon:hover {
+  transform: scale(1.05);
+}
+
+.social-icon.black {
+  background-color: #222222;
+}
+
+.social-icon.face {
+  background-position: -34px 0;
+}
+
+.social-icon.pint {
+  background-position: -68px 0;
+}
+
+.social-icon.google {
+  background-position: -102px 0;
+}
+
+.social-icon.black.twit {
+  background-position: -136px 0;
+}
+
+.social-icon.black.face {
+  background-position: -169px 0;
+}
+
+.social-icon.black.pint {
+  background-position: -203px 0;
+}
+
+.social-icon.black.google {
+  background-position: -237px 0;
+}
+
+.team > p {
+  margin-top: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 120px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777;
+  letter-spacing: -0.025em;
+}
+
+.partners {
+/*   height: 165px; */
+  position: relative;
+  background-color: white;
+}
+
+.partners > div {
+  padding: 61px 0;
+  text-align: center;
+}
+  
+.partners .image {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.partners .image:first-child {
+  margin-left: 0;
+}
+
+.partners .image:last-child {
+  margin-right: 0;
+}
+
+.partners .envato {
+  margin: 0 28px;
+}
+
+.partners .wp {
+  margin: 0 20px;
+}
+
+.partners .tuts {
+  margin: 0 20px;
+}
+
+.partners .lanser {
+  margin: 0 23px;
+}
+
+.contacts {
+  height: 675px;
+  background: url("http://freepo.ru/netology/images/diplom/back/map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.contacts form div {
+  display: inline-block;
+  width: 50%;
+  padding: 0;
+  vertical-align: top;
+}
+
+.contacts form .right {
+  padding-right: 14px;
+}
+
+.contacts form .left {
+  padding-left: 14px;
+}
+
+.contacts form textarea {
+  display: inline-block;
+  width: 100%;
+  min-height: 212px;
+  padding: 20px;
+  border-width: 0;
+  border-radius: 5px;
+  background-color: #ffffff;
+  resize: none;
+}
+
+.contacts form input {
+  width: 100%;
+  height: 52px;
+  margin-top: 28px;
+  padding: 20px;
+  border-width: 0;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.contacts input::placeholder, .contacts textarea::placeholder {
+  font-family: Montserrat, Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #bbbbbb;
+}
+
+.contacts input, .contacts textarea {
+  font-family: Montserrat, Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+
+.contacts h2 {
+  padding-top: 100px;
+  color: white;
+}
+
+.contacts form button {
+  margin-top: 30px;
+}
+
+.contacts form input:first-child {
+  margin-top: 0;
+}
+
+footer {
+  /*   height: 90px; */
+  padding: 0 20px;
+  background-color: white;
+}
+
+
+footer .internal {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  line-height: 40px;
+}
+
+footer .internal div{
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer .copy {
+  width: 35%;
+}
+
+footer .iconset {
+  width: 30%;
+  margin: 0;
+}
+
+footer p {
+  text-align: left;
+  font-family: Montserrat, Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #555555;
+}
