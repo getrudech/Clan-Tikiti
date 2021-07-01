@@ -1,0 +1,896 @@
+body {
+    width: auto;
+    margin: 0;
+  }
+  
+  body > header {
+    max-width: 1680px;
+    height: auto;
+    background-image: url("https://image.ibb.co/hjp8G9/d_h.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  body header div {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  body header nav {
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 940px;
+    margin: auto;
+    font-size: 0;
+    padding-top: 35px;
+  }
+  
+  body header nav p {
+    display: inline-block;
+    text-align: left;
+    box-sizing: border-box;
+    width: 20%;
+  }
+  
+  body header nav p a {
+    display: inline;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: cookie;
+    color: #fed136;
+  }
+  
+  body header nav ul {
+    display: inline-block;
+    text-align: right;
+    box-sizing: border-box;
+    width: 80%;
+  }
+  
+  body header nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 40px;
+  }
+  
+  body header nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: montserrat;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  body header nav ul li a:hover {
+    color: #fed136;
+  }
+  
+  body header section {
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 185px;
+    padding-bottom: 160px;
+  }
+  
+  body header section h1 {
+    font-family: vollkorn;
+    font-style: italic;
+    text-align: center;
+    font-size: 45px;
+    color: #ffffff;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 8px;
+  }
+  
+  body header section p {
+    font-family: montserrat;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 7px;
+    padding-bottom: 45px;
+  }
+  
+  body header section a {
+    display: block;
+    width: 240px;
+    height: 45px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #fed136;
+    border: 0;
+    border-radius: 4px;
+  }
+  
+  body header section a:hover {
+    color: #fed136;
+    background-color: #222222;
+  }
+  
+  body .services {
+    max-width: 1680px;
+    height: auto;
+    background-color: #ffffff;
+    padding-top: 110px;
+    padding-bottom: 100px;
+  }
+  
+  body .services header {
+    display: block;
+    max-width: 940px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  body .services header h2 {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 0;
+  }
+  
+  body .services header p {
+    font-family: vollcorn;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: #777777;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  body .services section {
+    display: block;
+    max-width: 940px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 75px;
+    font-size: 0;
+  }
+  
+  body .services section > div {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: calc(100%/3);
+    margin: 0 auto;
+  }
+  
+  body .services section div h3 {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #222222;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  body .services section div p {
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    text-align: center;
+    color: #777777;
+  }
+  
+  body .services section .commerce {
+    padding-right: 24px;
+  }
+  
+  body .services section .commerce div {
+    display: inline-block;
+    width: 74px;
+    height: 74px;
+    background-image: url("https://image.ibb.co/kG08ZU/icons.png");
+    background-color: #ffffff;
+  }
+  
+  body .services section .responsive {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  body .services section .responsive div {
+    display: inline-block;
+    width: 74px;
+    height: 74px;
+    background-image: url("https://image.ibb.co/kG08ZU/icons.png");
+    background-position: -93px 0px;
+  }
+  
+  body .services section .security {
+    padding-left: 24px;
+  }
+  
+  body .services section .security div {
+    display: inline-block;
+    width: 74px;
+    height: 74px;
+    background-image: url("https://image.ibb.co/kG08ZU/icons.png");
+    background-position: 73px 0px;
+  }
+  
+  body .portfolio {
+    max-width: 1680px;
+    height: auto;
+    background-color: #f7f7f7;
+    padding-top: 110px;
+    padding-bottom: 60px;
+  }
+  
+  body .portfolio header {
+    display: block;
+    max-width: 940px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  body .portfolio header h2 {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 0;
+  }
+  
+  body .portfolio header p {
+    font-family: vollcorn;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: #777777;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  body .portfolio section {
+    max-width: 940px;
+    font-size: 0;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 74px;
+  }
+  
+  body .portfolio section .portfolio-block {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 33.33%;
+  }
+  
+  body .portfolio section div div {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 93%;
+  }
+  
+  body .portfolio section div img {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 292px;
+    height: 301px;
+  }
+  
+  body .portfolio section div div h3 {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #333333;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  body .portfolio section div div p {
+    font-family: vollcorn;
+    font-style: italic;
+    font-size: 17px;
+    text-align: center;
+    color: #333333;
+    margin-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  body .portfolio section > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    margin-bottom: 50px;
+  }
+  
+  body .portfolio section .portfolio-block:hover {
+    transform: scale(1.15, 1.15);
+    transition: 0.5s;
+  }
+  
+  body .about {
+    max-width: 1680px;
+    height: auto;
+    background-color: #ffffff;
+    padding-top: 110px;
+    padding-bottom: 120px;
+  }
+  
+  body .about header {
+    display: block;
+    max-width: 940px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 65px;
+  }
+  
+  body .about header h2 {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 0 auto;
+  }
+  
+  body .about header p {
+    font-family: vollcorn;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: #777777;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  body .about section {
+    display: block;
+    max-width: 1680px;
+  }
+  
+  body .about section .period {
+    display: block;
+    max-width: 940px;
+    font-size: 0;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 93px;
+    background-image: url("https://image.ibb.co/kkwXrL/201.jpg");
+    background-size: contain;
+  }
+  
+  body .about section section .empty-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+  }
+  
+  body .about section section .picture-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+  }
+  
+  body .about section section .picture-block div {
+    display: inline-block;
+    height: 169px;
+    width: 169px;
+    border: 7px solid #f1f1f1;
+    border-radius: 90px;
+    background-size: 101%;
+    background-position: -1px -1px;
+  }
+  
+  body .about section section .july div {
+    background-image: url("https://image.ibb.co/cCgR1L/111.png");
+  }
+  
+  body .about section section .january div {
+    background-image: url("https://image.ibb.co/g2P2af/112.png");
+  }
+  
+  body .about section section .december div {
+    background-image: url("https://image.ibb.co/bBj2af/113.png");
+  }
+  
+  body .about section section .fabruary div {
+    background-image: url("https://image.ibb.co/eHgR1L/114.png");
+  }
+  
+  body .about section section .text-block {
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: top;
+  }
+  
+  body .about section section .right-align * {
+    text-align: right;
+  }
+  
+  body .about section section .left-align * {
+    text-align: left;
+  }
+  
+  body .about section h3 {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    color: #222222;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+  
+  body .about section .annotation {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    color: #222222;
+    padding-bottom: 10px;
+  }
+  
+  body .about section p {
+    font-family: "roboto slab";
+    font-size: 14px;
+    text-align: center;
+    color: #777777;
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  body .about section section .continue {
+    display: block;
+    max-width: 940px;
+    font-size: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  body .about section section .circle {
+    display: block;
+    width: 169px;
+    height: 169px;
+    background-color: #fed136;
+    border: 7px solid #f1f1f1;
+    border-radius: 90px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  body .about section section .circle p {
+    font-size: 18px;
+    font-family: montserrat;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    padding-top: 40px;
+    line-height: 1.5;
+  }
+  
+  body .team {
+    max-width: 1680px;
+    height: auto;
+    background-color: #f7f7f7;
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+  
+  body .team header {
+    display: block;
+    max-width: 940px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  body .team header h2 {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 0 auto;
+  }
+  
+  body .team header p {
+    font-family: vollcorn;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: #777777;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  body .team .persons {
+    display: block;
+    max-width: 940px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 44px;
+    font-size: 0;
+  }
+  
+  body .team .persons .person {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 33.33%;
+  }
+  
+  body .team .persons .person .photo {
+    display: inline-block;
+    height: 220px;
+    width: 220px;
+    border: 7px solid #ffffff;
+    border-radius: 117px;
+    background-color: #111111;
+    background-size: cover;
+  }
+  
+  body .team .persons .person .socialmedia {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+  }
+  
+  body .team .persons .icon {
+    display: inline-block;
+    vertical-align: top;
+    width: 40px;
+    height: 42px;
+  }
+  
+  body .team .persons .twitter {
+    background-image: url("https://image.ibb.co/fLgqjU/sprite1.png");
+  }
+  
+  body .team .persons .twitter:hover {
+    background-image: url("https://image.ibb.co/hrV5Jp/sprite2.png");
+  }
+  
+  body .team .persons .facebook {
+    background-image: url("https://image.ibb.co/fLgqjU/sprite1.png");
+    background-position: -58px 0;
+    margin-left: 9px;
+  }
+  
+  body .team .persons .facebook:hover {
+    background-image: url("https://image.ibb.co/hrV5Jp/sprite2.png");
+  }
+  
+  body .team .persons .pinterest {
+    background-image: url("https://image.ibb.co/fLgqjU/sprite1.png");
+    background-position: -116px 0;
+    margin-left: 9px;
+  }
+  
+  body .team .persons .pinterest:hover {
+    background-image: url("https://image.ibb.co/hrV5Jp/sprite2.png");
+  }
+  
+  body .team .persons .google {
+    background-image: url("https://image.ibb.co/fLgqjU/sprite1.png");
+    background-position: 46px 0;
+    margin-left: 9px;
+  }
+  
+  body .team .persons .google:hover {
+    background-image: url("https://image.ibb.co/hrV5Jp/sprite2.png");
+  }
+  
+  body .team .persons .information {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  
+  body .team .persons h4 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: montserrat;
+    color: #222222;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  body .team .persons p {
+    font-size: 14px;
+    font-family: "roboto slab";
+    color: #777777;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  body .team .description {
+    display: block;
+    max-width: 640px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  body .team .description p {
+    font-size: 16px;
+    font-family: "roboto slab";
+    color: #777777;
+    margin: 0;
+  }
+  
+  body .companies {
+    display: block;
+    max-width: 1680px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  body .companies div {
+    display: block;
+    max-width: 940px;
+    font-size: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  body .companies div img {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+  }
+  
+  body .companies div img:nth-child(n + 2) {
+    margin-left: 40px;
+  }
+  
+  body .contacts {
+    max-width: 1680px;
+    height: auto;
+    background-image: url("https://image.ibb.co/myxkjU/contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #333333;
+    padding-top: 110px;
+    padding-bottom: 114px;
+  }
+  
+  body .contacts header {
+    display: block;
+    max-width: 940px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  body .contacts header h2 {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  body .contacts header p {
+    font-family: vollcorn;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: #777777;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  body .contacts form {
+    display: block;
+    max-width: 940px;
+    text-align: center;
+    margin: auto;
+    font-size: 0;
+    padding-top: 60px;
+  }
+  
+  body .contacts form input {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+  }
+  
+  body .contacts form input:focus::placeholder {
+    color: transparent;
+  }
+  
+  body .contacts form textarea {
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    color: #bbbbbb;
+    text-transform: uppercase;
+  }
+  
+  body .contacts form textarea:focus::placeholder {
+    color: transparent;
+  }
+  
+  body .contacts form .left-block {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 48.5%;
+    padding-right: 19px;
+    float: left;
+  }
+  
+  body .contacts form .left-block input {
+    display: inline-block;
+    height: 52px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 28px;
+  }
+  
+  body .contacts form .right-block {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 48.5%;
+    padding-left: 19px;
+  }
+  
+  body .contacts form .right-block textarea {
+    display: inline-block;
+    height: 197px;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  body .contacts input {
+    display: inline-block;
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  body .contacts textarea {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0 0 10px;
+  }
+  
+  body .contacts button {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 65px;
+    clear: both;
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #fed136;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  body .contacts button:hover {
+    color: #fed136;
+    background-color: #555555;
+  }
+  
+  body footer {
+    display: block;
+    max-width: 1680px;
+  }
+  
+  body footer section {
+    display: block;
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+    padding-top: 16px;
+    padding-bottom: 26px;
+  }
+  
+  body footer .signature {
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: top;
+  }
+  
+  body footer .signature p {
+    font-family: montserrat;
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  body footer .socialmedia {
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: top;
+  }
+  
+  body footer .socialmedia .icon {
+    display: inline-block;
+    vertical-align: top;
+    width: 41px;
+    height: 41px;
+  }
+  
+  body footer .socialmedia .twitter {
+    background-image: url("https://image.ibb.co/fPCajU/fs1.png");
+    margin-right: 4px;
+  }
+  
+  body footer .socialmedia .twitter:hover {
+    background-image: url("https://image.ibb.co/dMVT4U/fs2.png");
+  }
+  
+  body footer .socialmedia .facebook {
+    background-image: url("https://image.ibb.co/fPCajU/fs1.png");
+    background-position: -45px 0;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  
+  body footer .socialmedia .facebook:hover {
+    background-image: url("https://image.ibb.co/dMVT4U/fs2.png");
+  }
+  
+  body footer .socialmedia .pinterest {
+    background-image: url("https://image.ibb.co/fPCajU/fs1.png");
+    background-position: -91px 0;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  
+  body footer .socialmedia .pinterest:hover {
+    background-image: url("https://image.ibb.co/dMVT4U/fs2.png");
+  }
+  
+  body footer .socialmedia .google {
+    background-image: url("https://image.ibb.co/fPCajU/fs1.png");
+    background-position: -137px 0;
+    margin-left: 4px;
+  }
+  
+  body footer .socialmedia .google:hover {
+    background-image: url("https://image.ibb.co/dMVT4U/fs2.png");
+  }
+  
+  body footer .empty-block {
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: top;
+  }
+   
