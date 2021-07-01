@@ -1,0 +1,105 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Open Sans",sans-serif;
+  }
+  
+  body {
+    min-height: 100vh;
+   display:flex;
+    align-items:center;
+    justify-content: center;
+    background:#;
+    
+    
+  }
+  
+  
+  
+  
+  .about-section {
+    background:url("/images/pexel.jpeg") no-repeat left;;
+    background-size: -40px%;
+  
+    background-color: #fdfdfd;;
+    overflow:hidden;
+    padding: 100px;
+    
+  }
+  
+  .inner-container {
+      background-image: url("/images/event2.jpeg");
+    width: 55%;
+    height: 100%;
+    float:right;
+    padding:150px;
+    margin-left: -20px;
+  }
+  
+  
+  
+  
+  .inner-container h1 {
+      color: blue;
+    margin-bottom:30px;
+    font-size:30px;
+    font: weight 900px;;
+    padd
+  }
+  
+  .text {
+    font-size:13px;
+    color:white;
+    line-height:30px;
+    text-align:justify;
+    margin-bottom:40px;
+  }
+  
+  
+  .skills {
+    display: flex;
+    justify-content: space-around;
+    font-weight:700px;
+    font-size:20px;
+    color:blue;
+  
+  }
+  
+  
+   @media screen and (max-width:1200px){
+     
+     .inner-container {
+       padding:80px;
+     }
+     
+  }
+  
+  
+  
+   @media screen and (max-width:1000px){
+     
+     .about-section {
+       background-size:100%;
+       padding:100px  40px;
+     }
+     
+     .inner-container {
+       width:100%;
+     }
+     
+  }
+  
+  
+   @media screen and (max-width:600px){
+     
+     .about-section {
+       padding:0;
+     }
+     
+     .inner-container {
+       padding:60px;
+     }
+     
+     
+  }
